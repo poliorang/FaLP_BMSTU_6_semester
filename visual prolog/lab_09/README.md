@@ -2,10 +2,10 @@
 - Написать 4 запроса. Каждый на РЕЯ (русский естественный язык), prolog, Neo4j  
 - ER диаграмма сущностей  
 
-Neo4j - графовая БД.  
-Всё можно потыкать в онлайне [neo4j](http://sabaka.net)
+[Neo4j](https://login.neo4j.com/u/login/identifier?state=hKFo2SBONVVUMEE4bDlURnRFUDNhVlVVRjA3ajhzbzdhd19RQaFur3VuaXZlcnNhbC1sb2dpbqN0aWTZIFJrd2Zoa3ZwcWJtRUxLbjdrREtmR0ZrLXJ6OEtqdjdzo2NpZNkgV1NMczYwNDdrT2pwVVNXODNnRFo0SnlZaElrNXpZVG8) - графовая БД. Всё можно потыкать в онлайне.  
 
-```neo4j
+— Заполнить базу знаний  
+```Neo4j
 CREATE (polina:Person {name: "Polina", sex: "female"}),
 (svetlana:Person {name: "Sveta", sex: "female"}),
 (alexandr:Person {name: "Alexandr", sex: "male"}),
